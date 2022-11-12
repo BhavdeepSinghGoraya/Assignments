@@ -1,0 +1,30 @@
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #FDF0D5;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    display: grid;
+}
+aside{
+    background-color: #F9F3EC;
+    color: #5394A0;
+}
+aside ul{
+    text-align: center;
+    list-style: square;
+}
+header{
+    color: #5394A0;
+    position: relative;
+
+}
+
+footer{
+    color: #5394A0;
+
+}
