@@ -41,3 +41,43 @@ footer{
     width: 50px;
     height: 50px;
 } */
+
+button{
+    background-color: #5394A0;
+    color: #FDF0D5;
+    border: none ;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 15px;
+}
+.NoteDarkTheme , .SaveCancel{
+    display: flex;
+}
+.NoteDarkTheme{
+    grid-row: 1;
+    grid-column: span 2;
+    justify-content: space-between;
+}
+.DarkTheme{
+    background-color: #6F6A87;
+}
+textarea{
+    background-color: #F9F3EC;
+    border: 4px solid #87CEEB ;
+    outline: none;
+    resize: vertical;
+    height: 150px;
+    grid-row: 2/4;
+    grid-column: 1/3;
+}
+.SaveCancel{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    justify-content: right;
+    column-gap: 10px;
+}
+.Cancel{
+    background-color: #D9827C;
+}
+
