@@ -38,3 +38,17 @@ function displayNone(){
 }
 
 cancelBtn.addEventListener('click',displayNone);
+
+function handelClick(){
+    textArea.value = ''
+}
+
+function display(){
+    saveBtn.classList.remove('hidden');
+    textArea.classList.remove('hidden');
+    cancelBtn.classList.remove('hidden');
+
+}
+
+newNoteBtn.addEventListener('click',display);
+newNoteBtn.addEventListener('click',handelClick);
