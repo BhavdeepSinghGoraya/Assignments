@@ -58,7 +58,7 @@ function saveNotes(){
     userInput = prompt(`Enter the Title of the note to be saved:`);
     newNote = {title: userInput, body: textArea.value};
     notesArray.push(newNote)
-    console.log(notesArray)
+    // console.log(notesArray)
 }
 
 saveBtn.addEventListener('click',saveNotes);

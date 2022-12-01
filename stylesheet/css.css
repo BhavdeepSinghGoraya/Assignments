@@ -7,10 +7,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #395656;
     margin: 0px;
-    height: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,0.5fr) repeat(2,1fr) 0.5fr;
+    grid-template-rows: repeat(2,0.5fr) repeat(2,1fr);
 }
 aside{
     background-color: #F9F3EC;
@@ -32,8 +31,7 @@ main{
 }
 footer{
     grid-row: 5/6;
-    grid-column: 1/5;
-    
+    grid-column: 1/5; 
 }
 
 section{
@@ -96,9 +94,6 @@ header ul{
 header li{
     padding: 10px;
 }
-/* a{
-    color: #FDF0D5;
-} */
 
 h1 , h2{
     text-align: center;
@@ -132,6 +127,7 @@ h1 , h2{
     body{
         grid-template-columns: repeat(5,1fr);
         grid-template-rows: 0.5fr repeat(2, 1fr) 1fr;
+        height: 100%;
     }
     aside ul{
         text-align: left;
