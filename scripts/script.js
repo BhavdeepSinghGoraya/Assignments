@@ -53,6 +53,7 @@ function display(){
 newNoteBtn.addEventListener('click',display);
 newNoteBtn.addEventListener('click',handelClick);
 
+
 function saveNotes(){
     userInput = prompt(`Enter the Title of the note to be saved:`);
     newNote = {title: userInput, body: textArea.value};
