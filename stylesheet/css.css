@@ -21,6 +21,24 @@ aside ul{
     grid-row: 4/5;
     grid-column: 2/6;
  }
+ .dark-background-color{
+    background-color: #121212;
+}
+.dark-aside-color{
+    background-color: #404040;
+}
+.light-text-color{
+    color: #B3B3B3;
+}
+.btn-dark-background-color{
+    background-color: #02393d;
+}
+.darktheme-background-color{
+    background-color: #312244;
+}
+.cancel-background-color{
+    background-color: #470024;
+}
 
 @media screen and (min-width: 600px) {
    
