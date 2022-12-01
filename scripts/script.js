@@ -7,7 +7,7 @@ const newNoteBtn = document.querySelector('.Note');
 const notesArray =[ {title:"note one" , body:"this is my first note"},
                     {title:"note two" , body:"this is my second note"}
                 ];
-const unorderedList = document.querySelector('.notes-list'); 
+
 function buttonDarkTheme(e){
     document.body.classList.toggle('dark-background-color');
     document.body.classList.toggle('light-text-color');
