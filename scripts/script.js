@@ -30,3 +30,11 @@ function changeText(e){
 };
 
 clickDarkTheme.addEventListener('click', changeText);
+
+function displayNone(){
+    saveBtn.classList.toggle('hidden');
+    textArea.classList.toggle('hidden');
+    cancelBtn.classList.toggle('hidden');
+}
+
+cancelBtn.addEventListener('click',displayNone);
